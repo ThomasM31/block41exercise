@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.*;
 
-public class DrawPolygons extends JComponent{
+public class DrawPolygons extends JComponent {
     public ArrayList<Polygon> polygons;
     public boolean direction = true;
     public int ticker = 0;

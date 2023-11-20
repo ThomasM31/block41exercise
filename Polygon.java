@@ -14,6 +14,7 @@ public abstract class Polygon extends JComponent{
         this.drawer = drawer;
     }
     public Polygon(int x, int y, DrawPolygons drawer){
+
         this(new Point(x,y), drawer);
     }
 
